@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingStart="35dp"
+    android:paddingEnd="13dp"
+    app:title="@string/app_name"
+    android:paddingLeft="35dp"
+    android:paddingRight="13dp">
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="#000000"
+        android:text="@string/submit"
+        android:layout_gravity="right"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:minHeight="0dp"
+        android:id="@+id/submit"
+        />
+
+
+</androidx.appcompat.widget.Toolbar>
